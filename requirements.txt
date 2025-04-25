@@ -3,4 +3,4 @@ Flask-SQLAlchemy==3.1.1
 Flask-JWT-Extended==4.6.0
 akshare==1.16.81
 requests==2.31.0
-celery==5.3.7
+celery==5.5.1
