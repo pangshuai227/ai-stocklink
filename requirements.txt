@@ -1,6 +1,6 @@
 Flask==3.0.3
 Flask-SQLAlchemy==3.1.1
 Flask-JWT-Extended==4.6.0
-akshare==2.0.2
+akshare==1.16.81
 requests==2.31.0
 celery==5.3.7
