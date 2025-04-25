@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+flask_jwt_extended
+akshare
+datetime
+hashlib
+requests
+celery
