@@ -10,11 +10,11 @@ from celery import Celery
 
 app = Flask(__name__)
 app.config.update({
-    'SQLALCHEMY_DATABASE_URI': 'mysql+pymysql://user:password@localhost/stock_db',
+    'SQLALCHEMY_DATABASE_URI': 'mysql+pymysql://:password@localhost/stock_db',
     'SQLALCHEMY_TRACK_MODIFICATIONS': False,
-    'JWT_SECRET_KEY': 'your_super_secret_key',
-    'WECHAT_APPID': 'wx1234567890',
-    'WECHAT_SECRET': 'your_wechat_secret'
+    'JWT_SECRET_KEY': 'ps15075356735',
+    'WECHAT_APPID': 'wx935c29bf7f27f59b',
+    'WECHAT_SECRET': '4539c37b86d00655a31825a590d51fd2'
 })
 
 # 初始化扩展
