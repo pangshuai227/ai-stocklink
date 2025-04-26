@@ -10,7 +10,7 @@ from celery import Celery
 
 app = Flask(__name__)
 app.config.update({
-    'SQLALCHEMY_DATABASE_URI': 'mysql+pymysql://:password@localhost/stock_db',
+    'SQLALCHEMY_DATABASE_URI': 'mysql+pymysql://:stock_uesr:password1@localhost/stock_db',
     'SQLALCHEMY_TRACK_MODIFICATIONS': False,
     'JWT_SECRET_KEY': 'ps15075356735',
     'WECHAT_APPID': 'wx935c29bf7f27f59b',
